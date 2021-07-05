@@ -169,3 +169,74 @@ html{
     color: #777;
 }
 /* food section style end */
+
+/* customer section style start here */
+.customer{
+    background: url(img/main-bg.png);
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.title{
+    text-align: center;
+    line-height: 3;
+}
+.title h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.title h1 span{
+    color: #FE4A2E;
+}
+.fedback{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #999;
+}
+.fedback h2{
+    font-size: 20px;
+    line-height: 2;
+    word-spacing: 10px;
+}
+.fedback span{
+    font-size: 12px;
+    color: #666;
+    line-height: 3;
+}
+.fedback p{
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+    font-size: 15px;
+}
+.fedback p span{
+    font-size: 20px;
+    line-height: 0;
+}
+/* customer section style end here */
+
+/* contact section style start here */
+.form h2{
+    text-transform: capitalize;
+    font-size: 34px;
+    line-height: 2;
+    padding-top: 80px;
+}
+.form p{
+    font-size: 20px;
+    letter-spacing: .4px;
+    word-spacing: 10px;
+    line-height: 2;
+}
+.form input{
+    display: block;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 2px solid;
+    border-image: linear-gradient(45deg,lightsalmon, tomato);
+    border-image-slice: 1;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+/* contact section style end here */
