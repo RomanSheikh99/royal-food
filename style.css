@@ -83,6 +83,7 @@
     margin-bottom: 20px;
 }
 .btn{
+    text-decoration: none;
     border: none;
     outline: none;
     background: linear-gradient(20deg,#FB974C, #FE4A2E);
@@ -93,9 +94,6 @@
     transition: .5s;
     border-radius: 6px;
 }
-.btn:hover{
-    transform: scale(1.05);
-}
 .img-box{
     width: 50%;
     display: flex;
@@ -105,3 +103,14 @@
     width: 70%;
 }
 /* bennar section style end */
+
+/* about section style start */
+.about{
+    background: url(img/main-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+.abt-text p{
+    margin: 20px 0 60px 0;
+}
+/* about section style end */
